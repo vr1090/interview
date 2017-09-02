@@ -22,7 +22,7 @@ public class MovieActivity extends AppCompatActivity implements MovieView {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_movie);
         title = (TextView)findViewById(R.id.title);
-        if(presenter != null )
+        if(presenter == null )
             presenter = new Presenter(this);
         presenter.showTitle();
     }
