@@ -28,7 +28,7 @@ class MovieActivityTest{
     @Test
     fun should_show_title(){
         activity.launchActivity(null)
-        Espresso.onView( ViewMatchers.withId(R.id.title)).check(ViewAssertions.matches(ViewMatchers.withText("hello")))
+        Espresso.onView( ViewMatchers.withId(R.id.title)).check(ViewAssertions.matches(ViewMatchers.withText(Presenter.getTitle())))
     }
 }
 
