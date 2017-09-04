@@ -11,3 +11,14 @@ technology we will using for this interview:
 1. espresso and unit test
 2. retrofit
 3. recyclerview
+
+
+the API we will use is from https://www.themoviedb.org/documentation/api
+we have set up an account and setup the gradle file 
+
+the API key can be found in file along with example how to call it:
+database.kt
+
+
+good luck !! 
+ 
